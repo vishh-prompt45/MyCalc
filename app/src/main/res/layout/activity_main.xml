@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Enter A" />
+        android:hint="Enter A"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -20,36 +20,40 @@
         android:id="@+id/et_b"
         android:layout_margin="20dp"
         android:hint="Enter B"/>
-    
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_add"
-            android:layout_margin="4dp"
-            android:text="+"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_subtraction"
-            android:layout_margin="4dp"
-            android:text="-"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_multiplication"
-            android:layout_margin="4dp"
-            android:text="*"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_division"
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:text="/"/>
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btn_subtraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btn_multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btn_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="/" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:padding="1dp"
-        android:background="#E0E0E0"
+        android:background="#BFA8EA"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
